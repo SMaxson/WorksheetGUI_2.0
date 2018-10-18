@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="HtmlAgilityPack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HtmlAgilityPack.XML;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="HtmlAgilityPack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HtmlAgilityPack.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mumbo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000770_8000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mumbo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000767_8000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mumbo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000766_8000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mumbo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000768_8000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mumbo6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000771_8000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mumbo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000769_8000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FloppyDisc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\FloppyDisc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banjo_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banjo_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banjo_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banjo_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mumbo_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mumbo_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mumbo_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mumbo_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottles1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000107_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bottles2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000108_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bottles3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000109_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Bottles_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottles_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bottles_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottles_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captain_Blackeye_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captain_Blackeye_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captain_Blackeye_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captain_Blackeye_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jamjars1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000640_16000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jamjars2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000641_16000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jamjars3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000643_16000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jamjars4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000642_16000.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Jamjars_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jamjars_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kazooie1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000121_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kazooie2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000122_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kazooie3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000123_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kazooie4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000124_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kazooie_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kazooie_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kazooie_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kazooie_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klungo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000364_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="klungo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000365_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="klungo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000366_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Klungo_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klungo_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klungo_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klungo_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sabreman_Blinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sabreman_Blinking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sabreman_Speaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sabreman_Speaking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banjo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000097_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="banjo_uh_oh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UhOh.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Peppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peppy3D.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peppy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peppy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_Dialogue_Done_Mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_Dialogue_Done_Mono.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_Dialogue_Next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_Dialogue_Next.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_PauseMenu_Close_Mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_PauseMenu_Close_Mono.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_PauseMenu_Cursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_PauseMenu_Cursor.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_PauseMenu_Open_Mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_PauseMenu_Open_Mono.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_PauseMenu_Select_Mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_PauseMenu_Select_Mono.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OOT_PauseMenu_Turn_Mono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_PauseMenu_Turn_Mono.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Navi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Navi2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sabreman_Beep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OOT_Countdown1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Burp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000215_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Burp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000216_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Burp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000218_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Burp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000217_11025.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ImperialGuard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImperialGuard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StopRightThere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StopRightThere.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StopRightThere_Short" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StopRightThere_Short.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tesseract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tesseract.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
